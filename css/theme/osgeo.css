@@ -31,7 +31,8 @@ body {
   font-family: 'Sintony', sans-serif;
   font-size: 30px;
   font-weight: 300;
-  color: #3d3d3d; }
+  color: #0A3841;
+}
 
 ::selection {
   color: #fff;
@@ -304,6 +305,22 @@ h3.shadow {
 
 .reveal .controls div.navigate-down.enabled:hover {
   border-top-color: #0000f1; }
+
+.reveal .controls .navigate-left {
+    border-right-color: #0A3841;
+}
+
+.reveal .controls .navigate-right {
+    border-left-color: #0A3841;
+}
+
+.reveal .controls .navigate-down {
+    border-top-color: #0A3841;
+}
+
+.reveal .controls .navigate-up {
+    border-bottom-color: #0A3841;
+}
 
 /*********************************************
  * PROGRESS BAR
