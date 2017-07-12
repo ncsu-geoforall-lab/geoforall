@@ -238,7 +238,7 @@ h3.shadow {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #bb6a64;
+  color: #003A40;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
@@ -252,7 +252,8 @@ h3.shadow {
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: #0000f1;
+  color: #003A40;
+  text-decoration: underline;
   text-shadow: none;
   border: none; }
 
